@@ -1,0 +1,75 @@
+.header {
+  padding: 24px 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: $text-dark;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &__auth {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.hero {
+  display: flex;
+  padding: 80px;
+  background: $bg-light;
+
+  &__content {
+    max-width: 500px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 32px;
+    color: $text-light;
+  }
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 64px 80px;
+}
+
+.stat {
+  text-align: center;
+
+  strong {
+    font-size: 32px;
+    color: $primary;
+  }
+}
+
+.testimonials {
+  display: flex;
+  gap: 40px;
+  padding: 80px;
+}
+
+.testimonial {
+  max-width: 400px;
+  font-style: italic;
+}
